@@ -33,6 +33,18 @@ centralising assertions, not of either style.
 
 Playwright · TypeScript · Allure
 
+**[playwright-ui-automation-patterns](https://github.com/surakiartysk/playwright-ui-automation-patterns)**
+
+The same question asked of browser tests. "Use page objects" is where most UI
+advice stops and it settles nothing — it says nothing about where the knowledge
+of the page should live. Two answers built side by side, held to the same ten
+journeys by a check that fails when either is missing one. The finding worth
+keeping: neither structure made a wrong test easier to write. Both would assert
+on a cart badge while the cart behind it was empty, and what caught that was
+mutation testing, not the way the suite was organised.
+
+Playwright · TypeScript
+
 **[paygate-sandbox](https://github.com/surakiartysk/paygate-sandbox)** · [live](https://paygate-sandbox.vercel.app)
 
 A sandbox that emulates the 2C2P and Omise payment APIs, so an integration can
