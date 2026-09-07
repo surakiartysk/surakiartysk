@@ -17,8 +17,8 @@ employer's code, business domain and branding did not.
 Self-service test running: pick a slice, press Run, get a link to the report.
 The interesting part is not the Run button — it is who may run what against
 which branch, and who may then see the result. Four roles, four dashboards, and
-a `demo` role that can never trigger a real run, which is what makes its
-password safe to publish.
+a `demo` role that can never trigger a real run — which is why it needs no
+password at all, just a button.
 
 React · Cloudflare Workers · D1 · R2
 
